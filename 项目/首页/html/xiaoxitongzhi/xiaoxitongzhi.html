@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../../css/xiaoxi/index.css" />
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="warp">
+			<header>
+				<img src="../../img/xiaoxi/d_03.png" id="oImg"/>
+				<h2>消息通知</h2>
+			</header>
+			<section>
+				<div class="mian5">
+					<dl>
+						<dt><img src="../../img/xiaoxi/a_37.png"/></dt>
+						<dd>
+							<h2>物流消息</h2>
+							<p>您购买的【商品名称】以发货，请注意查收！</p>
+						</dd>
+					</dl>
+					<span>08:20</span>
+				</div>
+				<div class="mian5">
+					<dl>
+						<dt><img src="../../img/xiaoxi/a_40.png"/></dt>
+						<dd>
+							<h2>交易消息</h2>
+							<p>【商品名称】 订单已退款，请注意查收！</p>
+						</dd>
+					</dl>
+					<span>08:20</span>
+				</div>
+
+			</section>
+			<footer></footer>
+		</div>
+
+	</body>
+
+</html>
+<script type="text/javascript">
+	var Oimg=document.getElementById("oImg");
+	Oimg.onclick=function(){
+		location.href="../shouye/shouye.html";
+	}
+</script>

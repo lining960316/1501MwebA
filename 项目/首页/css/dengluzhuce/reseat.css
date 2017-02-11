@@ -1,0 +1,196 @@
+@import url(reset.css);
+.warp {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.warp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: #f7f7f7;
+}
+header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.2rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #cccccc;
+}
+header img {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+  margin-left: 1.1rem;
+  margin-top: 1.2rem;
+}
+header h2 {
+  font-size: 1.6rem;
+  -webkit-box-flex: 1;
+  line-height: 4.2rem;
+  text-align: center;
+}
+section {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+section .main1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.8rem;
+  background: #ffffff;
+}
+section .main1 .main1_one {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 93%;
+  height: 3.7rem;
+  background: none;
+  margin-left: 1.1rem;
+  border-bottom: 1px solid #cccccc;
+}
+section .main1 .main1_one input {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 80%;
+  height: 3.7rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+section .main1 .main1_one input::-webkit-input-placeholder {
+  color: #a6a6a6;
+  font-size: 1.4rem;
+}
+section .main2 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.8rem;
+  background: #ffffff;
+}
+section .main2 .main2_one {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 93%;
+  height: 3.7rem;
+  background: none;
+  margin-left: 1.1rem;
+  border-bottom: 1px solid #cccccc;
+}
+section .main2 .main2_one input {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 80%;
+  height: 3.7rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+section .main2 .main2_one input::-webkit-input-placeholder {
+  color: #a6a6a6;
+  font-size: 1.4rem;
+}
+section .main3 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.8rem;
+  background: #ffffff;
+}
+section .main3 .main3_one {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 93%;
+  height: 3.7rem;
+  background: none;
+  margin-left: 1.1rem;
+}
+section .main3 .main3_one input {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 80%;
+  height: 3.7rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+section .main3 .main3_one input::-webkit-input-placeholder {
+  color: #a6a6a6;
+  font-size: 1.4rem;
+}
+section .main4 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.8rem;
+  background: #ffffff;
+  border-bottom: 1px solid #cccccc;
+}
+section .main4 .main4_one {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 96%;
+  height: 3.7rem;
+  background: none;
+  margin-left: 1.1rem;
+  border-top: 1px solid #cccccc;
+}
+section .main4 .main4_one input {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 69%;
+  height: 3.7rem;
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-box-flex: 1;
+}
+section .main4 .main4_one input::-webkit-input-placeholder {
+  color: #a6a6a6;
+  font-size: 1.4rem;
+}
+section .main4 .main4_one h2 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  display: inline-block;
+  width: 7.8rem;
+  height: 3.7rem;
+  background: none;
+  text-align: center;
+  line-height: 3.7rem;
+  border-left: 1px solid #cccccc;
+  color: black;
+}
+section .main5 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.8rem;
+  background: none;
+  margin-top: 2rem;
+}
+section .main5 .main5_one {
+  width: 90%;
+  height: 3.8rem;
+  background: #ff7d1b;
+  margin-left: 1.3rem;
+  border-radius: 0.6rem;
+  text-align: center;
+  line-height: 3.8rem;
+}
+section .main5 .main5_one h2 {
+  font-size: 1.8rem;
+  color: white;
+}
+section .reset_lose {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 83%;
+  height: 12.5rem;
+  background: #ff0000;
+  position: absolute;
+  left: 2.3rem;
+  top: 17rem;
+}

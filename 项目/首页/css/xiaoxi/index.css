@@ -1,0 +1,72 @@
+@import url(reset.css);
+.warp {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.warp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.2rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #bfbfbf;
+  text-align: center;
+}
+header img {
+  width: auto;
+  height: 1rem;
+  background: none;
+  margin-top: 1.6rem;
+  margin-left: 1.1rem;
+}
+header h2 {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-left: 10rem;
+}
+section {
+  background: #f7f7f7;
+  -webkit-box-flex: 1;
+}
+section .mian5 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 6rem;
+  background: #ffffff;
+  border-top: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  position: relative;
+}
+section .mian5 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  -webkit-box-flex: 1;
+}
+section .mian5 dl img {
+  width: auto;
+  height: 4rem;
+  background: none;
+}
+section .mian5 dl dd {
+  margin-left: 1.5rem;
+}
+section .mian5 dl dd h2 {
+  font-size: 1.3rem;
+}
+section .mian5 dl dd p {
+  color: #9c9c9c;
+}
+section .mian5 span {
+  position: absolute;
+  top: 2.5rem;
+  right: 1rem;
+  color: #9c9c9c;
+}

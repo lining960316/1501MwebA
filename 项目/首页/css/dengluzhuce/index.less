@@ -1,0 +1,121 @@
+@import url(reset.css);
+.full(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@ver:horizontal) {
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+.warp {
+    .full(100%,100%,none);
+}
+.warp {
+    .box(vertical);
+    .full(auto,100%,url(../images/a1.png) no-repeat);
+    background-size: 100% 100%;
+}
+header {
+    .box(vertical);
+    margin-top: 6.5rem;
+    text-align: center;
+    img {
+        .full(auto,10rem,none);
+    }
+    h2 {
+        font-size: 1.8rem;
+        color: #4d4d4d;
+        margin-top: 1.5rem;
+    }
+}
+section {
+    .box(vertical);
+    overflow: auto;
+    box-sizing: border-box;
+    .main1 {
+        .box;
+        .full(100%,5rem,none);
+        margin-top: 3rem;
+        img {
+            .full(auto,3.3rem,none);
+            margin-left: 3.7rem;
+        }
+        .main1_input {
+            .full(60%,2.5rem,none);
+            margin-left: 1.4rem;
+            border-bottom: 1px solid #ff7d1b;
+            margin-top: 0.3rem;
+            input {
+                .full(80%,2rem,none);
+                border: none;
+                outline: none;
+            }
+            input::-webkit-input-placeholder {
+                color: #808080;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .main2 {
+        .box;
+        .full(100%,5rem,none);
+        
+        img {
+            .full(auto,3.3rem,none);
+            margin-left: 3.7rem;
+        }
+        .main2_input {
+            .full(60%,2.5rem,none);
+            margin-left: 1.4rem;
+            border-bottom: 1px solid #ff7d1b;
+            margin-top: 0.3rem;
+           position: relative;
+            input {
+                .full(80%,2rem,none);
+                border: none;
+                outline: none;
+              
+            }
+            input::-webkit-input-placeholder {
+                color: #808080;
+                font-size: 1.5rem;
+            }
+           .main2_img {
+                .full(auto,1.5rem,none);
+                position: absolute;
+                right:0.2rem;
+                top: 0.5rem;
+            }
+        }
+    }
+    .main3 {
+        .box;
+        .full(100%,3.8rem,none);
+        .main3_one {
+            .full(90%,3.8rem,#ff7d1b);
+            margin-left: 1.3rem;
+            border-radius: 0.6rem;
+            text-align: center;
+            line-height: 3.8rem;
+            h2 {
+                font-size: 1.8rem;
+                color: white;
+            }
+        }
+    }
+    .main4{
+        .box;
+        .full(100%,1.6rem,none);
+        margin-top: 1rem;
+        h2{
+            color: #507daf;
+            -webkit-box-flex: 1;
+            margin-left: 1.6rem;
+        }
+        h3{
+            color: #507daf;
+            margin-right: 1.8rem;
+        }
+    }
+}

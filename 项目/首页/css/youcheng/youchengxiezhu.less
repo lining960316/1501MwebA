@@ -1,0 +1,27 @@
+@import url(reset.css);
+.full(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@ver:horizontal) {
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+.warp {
+    .full(100%,100%,none);
+}
+.warp{
+    .box(vertical);
+}
+header{
+    .box;
+    .full(100%,2rem,red);
+}
+section{
+    -webkit-box-flex: 1;
+}
+footer{
+    .box;
+    .full(100%,2rem,green);
+}
