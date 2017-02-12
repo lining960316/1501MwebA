@@ -1,27 +1,276 @@
 @import url(reset.css);
+html,
+body,
 .warp {
   width: 100%;
   height: 100%;
   background: none;
+  font-size: 62.5%;
 }
 .warp {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
-header {
+.warp header {
   display: -webkit-box;
   -webkit-box-orient: horizontal;
   width: 100%;
-  height: 2rem;
-  background: #ff0000;
+  height: 4.4rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #bfbfbf;
 }
-section {
+.warp header img:nth-child(1) {
+  width: auto;
+  height: 1.6rem;
+  background: none;
+  margin-top: 1.3rem;
+  margin-left: 1.1rem;
+}
+.warp header h2 {
+  font-size: 1.6rem;
+  text-align: center;
   -webkit-box-flex: 1;
+  line-height: 4.4rem;
 }
-footer {
+.warp header img:nth-child(3) {
+  width: auto;
+  height: 1.8rem;
+  background: none;
+  margin-top: 1.3rem;
+  margin-right: 1.1rem;
+}
+.warp section {
+  overflow: auto;
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+}
+.warp section::-webkit-scrollbar {
+  width: 0;
+}
+.warp section .main1 {
   display: -webkit-box;
   -webkit-box-orient: horizontal;
   width: 100%;
-  height: 2rem;
-  background: #008000;
+  height: 2.2rem;
+  background: #f2f2f2;
+  line-height: 2.2rem;
+}
+.warp section .main1 p {
+  margin-left: 1rem;
+}
+.warp section .main1 p a {
+  color: #ff7d1b;
+}
+.warp section .main2 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.4rem;
+  background: #ffffff;
+}
+.warp section .main2 .main2_one {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 96%;
+  height: 3.4rem;
+  background: none;
+  margin-left: 1.1rem;
+  border-bottom: 1px solid #cccccc;
+  position: relative;
+}
+.warp section .main2 .main2_one h2 {
+  font-size: 1.1rem;
+  color: black;
+  margin-right: 1rem;
+  line-height: 3.4rem;
+}
+.warp section .main2 .main2_one input {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 70%;
+  height: 3rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+.warp section .main2 .main2_one .main2_one_img {
+  width: auto;
+  height: 1.1rem;
+  background: none;
+  position: absolute;
+  right: 0.6rem;
+  top: 1.2rem;
+}
+.warp section .main2 .main2_one input::-webkit-input-placeholder {
+  color: #a6a6a6;
+  font-size: 1.4rem;
+}
+.warp section .main3 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.4rem;
+  background: #ffffff;
+}
+.warp section .main3 .main3_one {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 96%;
+  height: 3.4rem;
+  background: none;
+  margin-left: 1.1rem;
+  border-bottom: 1px solid #cccccc;
+  position: relative;
+}
+.warp section .main3 .main3_one h2 {
+  font-size: 1.1rem;
+  color: black;
+  margin-right: 1rem;
+  line-height: 3.4rem;
+}
+.warp section .main3 .main3_one input {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 70%;
+  height: 3rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+.warp section .main3 .main3_one .main3_one_img {
+  width: auto;
+  height: 1.1rem;
+  background: none;
+  position: absolute;
+  right: 0.6rem;
+  top: 1.2rem;
+}
+.warp section .main3 .main3_one input::-webkit-input-placeholder {
+  color: #a6a6a6;
+  font-size: 1.4rem;
+}
+.warp section .main4 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3.4rem;
+  background: #ffffff;
+}
+.warp section .main4 .main4_one {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 96%;
+  height: 3.4rem;
+  background: none;
+  margin-left: 1.1rem;
+  border-bottom: 1px solid #cccccc;
+  position: relative;
+}
+.warp section .main4 .main4_one h2 {
+  font-size: 1.1rem;
+  color: black;
+  margin-right: 1rem;
+  line-height: 3.4rem;
+}
+.warp section .main4 .main4_one input {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 70%;
+  height: 3rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+.warp section .main4 .main4_one input::-webkit-input-placeholder {
+  color: #a6a6a6;
+  font-size: 1.4rem;
+}
+.warp section .main5 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.2rem;
+  background: #ffffff;
+}
+.warp section .main5 h2 {
+  line-height: 4.2rem;
+  margin-left: 1rem;
+}
+.warp section .main6 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 8.5rem;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+.warp section .main6 img {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: auto;
+  height: 6.5rem;
+  background: none;
+  padding: 0 1.3rem 0 1rem;
+}
+.warp section .main7 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.warp section .main7 .mian7_one {
+  width: 100%;
+  height: 3.5rem;
+  background: none;
+  -webkit-box-flex: 1;
+  margin-top: 0.8rem;
+  margin-left: 1rem;
+}
+.warp section .main7 .mian7_one h2 {
+  line-height: 2rem;
+}
+.warp section .main7 .mian7_one h2 img {
+  width: auto;
+  height: 1.3rem;
+  background: none;
+  margin-right: 1rem;
+}
+.warp section .main7 .mian7_one h2 a {
+  color: #000000;
+}
+.warp section .main7 .m7_img {
+  width: auto;
+  height: 1.1rem;
+  background: none;
+  padding: 2rem 1rem 0 0;
+}
+.warp footer {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 4.8rem;
+  background: #ffffff;
+}
+.warp footer h2 {
+  line-height: 4.8rem;
+  margin-left: 1rem;
+  -webkit-box-flex: 1;
+  font-size: 1.4rem;
+  color: #333333;
+}
+.warp footer h2 a {
+  color: #ff7d1b;
+}
+.warp footer .add {
+  width: 8rem;
+  height: 4.8rem;
+  background: #ff7d1b;
+}
+.warp footer .add h3 {
+  font-size: 1.7rem;
+  text-align: center;
+  line-height: 4.8rem;
+  color: white;
 }

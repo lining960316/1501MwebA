@@ -20,7 +20,7 @@ body,
   display: -webkit-box;
   -webkit-box-orient: horizontal;
   position: relative;
-  left: -100%;
+  left: 0%;
 }
 .warp .content > div {
   width: 100%;
@@ -55,6 +55,9 @@ body,
   -webkit-box-flex: 1;
   background: #f2f2f2;
   overflow: auto;
+}
+.warp .content .one section::-webkit-scrollbar {
+  width: 0;
 }
 .warp .content .one section .main1 {
   display: -webkit-box;

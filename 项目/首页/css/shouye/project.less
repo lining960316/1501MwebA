@@ -23,7 +23,7 @@ body,
         // overflow: hidden;
         .box();
         position: relative;
-        left: -100%;
+        left: 0%;
         &>div {
             .full(100%,auto,none);
         }
@@ -48,6 +48,9 @@ body,
                 -webkit-box-flex: 1;
                 background: #f2f2f2;
                 overflow: auto;
+                 &::-webkit-scrollbar{
+                    width: 0;
+                }
                 .main1 {
                     .box;
                     .full(100%,10rem,white);
